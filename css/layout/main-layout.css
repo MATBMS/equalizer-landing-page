@@ -1,0 +1,28 @@
+/* BODY */
+
+body {
+  min-height: 1811px;
+  background-image: url(../../img/bg-main-desktop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+  body {
+    min-height: 1909px;
+    background-image: url(../../img/bg-main-tablet.png);
+    /* background-position: top left; */
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 375px) {
+  body {
+    min-height: 1979px;
+    background-image: url(../../img/bg-main-mobile.png);
+    background-position: bottom left;
+  }
+}

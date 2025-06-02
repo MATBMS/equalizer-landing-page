@@ -11,6 +11,7 @@ This is a solution to the [Equalizer landing page challenge on Frontend Mentor](
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Responsive Design](#responsive-design)
 
 ## Overview
 
@@ -61,6 +62,18 @@ const proudOfThisFunc = () => {
 };
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+### Responsive Design
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+The site is responsive, with layouts for mobile and tablet devices at the following breakpoints:
+
+```css
+/* TABLET */
+
+@media (max-width: 768px) {
+}
+
+/* MOBILE */
+
+@media (max-width: 375px) {
+}
+```
