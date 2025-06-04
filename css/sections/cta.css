@@ -1,0 +1,138 @@
+#cta {
+  width: 100vw;
+  height: 1000px;
+  padding: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-background {
+  width: 1120px;
+  height: 600px;
+  border-radius: 12px;
+  background-color: var(--color-state);
+  position: relative;
+}
+
+.app-img {
+  width: 312px;
+  height: 642px;
+  position: absolute;
+  top: -121px;
+  left: 100px;
+  z-index: 2;
+}
+
+.bg-pattern-2 {
+  position: absolute;
+  left: 365px;
+  z-index: 1;
+}
+
+.cta-download {
+  width: 512px;
+  height: 632px;
+  padding: 56px;
+  border-radius: 16px;
+  background-color: var(--color-orange);
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  position: absolute;
+  top: 89px;
+  right: 64px;
+  z-index: 2;
+}
+
+.cta-title {
+  margin-bottom: 24px;
+}
+
+.cta-text {
+  margin-bottom: 40px;
+}
+
+.cta-price span {
+  margin-right: 16px;
+}
+
+.cta-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+  #cta {
+    padding: 200px 40px;
+  }
+
+  .cta-background {
+    width: 680px;
+  }
+
+  .app-img {
+    width: 270px;
+    height: 556px;
+    top: -114px;
+    left: 43px;
+  }
+
+  .bg-pattern-2 {
+    left: 0px;
+  }
+
+  .cta-download {
+    width: 356px;
+    height: 628px;
+    padding: 48px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 375px) {
+  #cta {
+    /* height of cta-background */
+    height: 380px;
+    /* height of top app-img */
+    margin-top: 110px;
+    /* height of cta-download */
+    margin-bottom: 625px;
+    padding: 0;
+  }
+
+  .cta-background,
+  .cta-download {
+    width: 375px;
+    border-radius: 0;
+  }
+
+  .cta-background {
+    height: 380px;
+  }
+
+  .app-img {
+    width: 209px;
+    height: 430px;
+    top: -110px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .bg-pattern-2 {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .cta-download {
+    height: 625px;
+    padding: 48px 20px;
+    top: 100%;
+    right: 0px;
+  }
+}

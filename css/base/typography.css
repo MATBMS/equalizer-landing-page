@@ -9,6 +9,7 @@
 
 * {
   font-family: 'IBMPlexSans';
+  color: var(--color-state);
 }
 
 /* HEADING */
@@ -20,7 +21,8 @@ h1 {
   letter-spacing: -1px;
 }
 
-h2 {
+h2,
+.cta-price span {
   font-size: 64px;
   font-weight: bold;
   line-height: 100%;
@@ -36,9 +38,20 @@ h3 {
 
 /* PARAGRAPH */
 
+/* preset 4 */
+
 p {
   font-size: 20px;
   font-weight: normal;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+/* preset 6 */
+
+.preset-6 {
+  font-size: 18px;
+  font-weight: bold;
   line-height: 150%;
   letter-spacing: 0px;
 }
