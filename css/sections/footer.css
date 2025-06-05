@@ -35,6 +35,10 @@ footer {
   height: 20px;
 }
 
+.social-icon:hover {
+  filter: invert(42%) sepia(70%) saturate(617%) hue-rotate(330deg) brightness(98%) contrast(103%);
+}
+
 /* TABLET */
 
 @media (max-width: 768px) {

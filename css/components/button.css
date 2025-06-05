@@ -14,7 +14,20 @@
   color: var(--color-white);
 }
 
+.btn-black:hover {
+  background-color: var(--color-cyan);
+  color: var(--color-state);
+}
+
+.btn-black:hover img {
+  filter: brightness(0) saturate(100%) invert(9%) sepia(16%) saturate(537%) hue-rotate(202deg) brightness(94%) contrast(94%);
+}
+
 .btn-white {
   background-color: var(--color-white);
   color: var(--color-state);
+}
+
+.btn-white:hover {
+  background-color: var(--color-yellow);
 }
